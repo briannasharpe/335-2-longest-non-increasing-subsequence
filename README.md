@@ -3,6 +3,4 @@ Longest non-increasing subsequence
 
 Group members:
 
-Ada Lovelace adalovelace@csu.fullerton.edu
-
-Charles Babbage charlesbab@csu.fullerton.edu
+Brianna Sharpe briannasharpe@csu.fullerton.edu
