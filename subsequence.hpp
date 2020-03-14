@@ -86,13 +86,9 @@ sequence longest_nonincreasing_end_to_beginning(const sequence& A) {
       // H[i] based on conditions that involve A[i], A[j] and H[j]
 
       // if increasing or equal and H is smaller or equal, add 1
-      if (A[i] >= A[j] && H[i] <= H[j] + 1) {
+      if (A[i] >= A[j] && H[i] <= H[j]+1) {
         H[i] = H[j] + 1;
-      }
-      /* // if decreasing, carry over
-      if (A[i] < A[j]) {
-        H[i] = H[j];
-      } //if */
+      } //if
     } //for j
   } //for i
 
